@@ -20,5 +20,6 @@ import {
   // ...
 } from 'element-ui'
 
+components: { baseInput, baseSelect }
+
 ```
-## components: { baseInput, baseSelect }
