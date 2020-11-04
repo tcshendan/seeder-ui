@@ -1,24 +1,24 @@
+
 # seeder-ui
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+## Install
+```shell
+npm install seeder-ui -S
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Quick Start
+``` javascript
+import Vue from 'vue'
+import SeederUI from 'seeder-ui'
 
-### Lints and fixes files
-```
-yarn lint
-```
+const { baseInput, baseSelect } = SeederUI
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+// or
+import {
+  baseInput,
+  baseSelect
+  // ...
+} from 'element-ui'
+
+```
+## components: { baseInput, baseSelect }
